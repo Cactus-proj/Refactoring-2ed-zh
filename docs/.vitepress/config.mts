@@ -3,7 +3,11 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "《重构2》中文版",
-  description: "重构：改善既有代码的设计（第二版）",
+  // meta 标签 <= 80 中文字符
+  description: "重构：改善既有代码的设计 (第二版) 马丁·福勒"
+    + "; Refactoring 2 中文翻译"
+    + "; 重構｜改善既有程式的設計; 重構 第二版"
+  ,
   lang: 'zh-CN',
   base: '/Refactoring-2ed-zh/',
 

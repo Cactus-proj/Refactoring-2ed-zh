@@ -17,6 +17,6 @@ features:
   - title: 出版社
     details: Addison-Wesley Professional; 2nd edition
   - title: 出版时间
-    details: 2018-11-30
+    details: "2018-11-30"
 ---
 
