@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Refactoring2 中文翻译"
-  text: "《重构：改善既有代码的设计（第二版）》中文翻译"
+  name: "《重构2》中文版"
+  text: "重构：改善既有代码的设计（第二版）"
   tagline: "Refactoring: Improving the Design of Existing Code (2nd Edition)"
   actions:
     - theme: brand
