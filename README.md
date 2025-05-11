@@ -1,5 +1,7 @@
 # 《重构：改善既有代码的设计（第二版）》中文翻译
 
+[![Build and Deploy](https://github.com/Cactus-proj/Refactoring-2ed-zh/actions/workflows/CI.yml/badge.svg)](https://github.com/Cactus-proj/Refactoring-2ed-zh/actions/workflows/CI.yml)
+
 在线阅读：https://Cactus-proj.github.io/Refactoring-2ed-zh/
 
 <img src="./docs/cover.jpg" width=24% />
