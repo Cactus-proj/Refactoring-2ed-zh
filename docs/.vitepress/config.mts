@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Refactoring2 中文翻译",
   description: "《重构：改善既有代码的设计（第二版）》中文翻译",
+  lang: 'zh-CN',
+  base: '/Refactoring-2ed-zh/',
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -33,6 +36,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Cactus-proj/Refactoring-2ed-zh' }
-    ]
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/Cactus-proj/Refactoring-2ed-zh/edit/main/docs/:path'
+    },
   }
 })

@@ -1,8 +1,6 @@
-# Refactoring2-zh
+# 《重构：改善既有代码的设计（第二版）》中文翻译
 
-《重构 改善既有代码的设计第二版》中文翻译
-
-在线阅读：[http://gdut_yy.gitee.io/doc-refact2/](http://gdut_yy.gitee.io/doc-refact2/)
+在线阅读：https://Cactus-proj.github.io/Refactoring-2ed-zh/
 
 <img src="./docs/cover.jpg" width=24% />
 
@@ -23,9 +21,28 @@
 - [第 11 章 重构 API](./docs/ch11.md)
 - [第 12 章 处理继承关系](./docs/ch12.md)
 
+
 ## 本地开发 & 阅读
+
+本项目基于 VitePress 进行开发，以提供比 Github Mardown 更佳的阅读体验
+
+依赖于 [`node.js`][nodejs]、[`vitepress`][vitepress] 等环境
+
+[nodejs]: https://nodejs.org/zh-cn/
+[vitepress]: https://vitepress.dev/zh/
+
+```sh
+git clone https://github.com/Cactus-proj/Refactoring-2ed-zh.git
+cd Refactoring-2ed-zh/
+npm install         # 安装 VitePress
+npm run docs:dev    # 编译并打开网页预览
+```
 
 
 ## License
 
-[MIT](./LICENSE)
+本项目为**未授权**的翻译
+- 对于书籍内容，原作者保留所有权利
+- 对于中文翻译以及其他的项目文件，按照 [MIT](./LICENSE) 协议授权
+
+NOTE: 由于是未授权翻译，中文翻译文本的版权不明确，因此本项目仅作维护性更新（保持CI可用）。
