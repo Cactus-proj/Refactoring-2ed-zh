@@ -25,26 +25,6 @@
 
 ## 本地开发 & 阅读
 
-本项目基于 vuepress 进行开发，以提供比 github mardown 更佳的阅读体验
-
-依赖于 `node.js`、`yarn`、`vuepress` 等环境
-
-```sh
-# vuepress
-yarn global add vuepress
-
-# 本地开发
-git clone https://github.com/gdut-yy/Refactoring2-zh.git
-cd Refactoring2-zh/
-yarn docs:dev
-
-# 本地阅读
-http://localhost:8080/doc-refact2/
-```
-
-## 更多书籍
-
-[https://github.com/xx-zh/xx-zh-roadmap](https://github.com/xx-zh/xx-zh-roadmap)
 
 ## License
 
