@@ -12,6 +12,10 @@ export default defineConfig({
   base: '/Refactoring-2ed-zh/',
 
   lastUpdated: true,
+  // https://vitepress.dev/zh/guide/sitemap-generation#options
+  sitemap: {
+    hostname: 'https://cactus-proj.github.io/Refactoring-2ed-zh/'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
