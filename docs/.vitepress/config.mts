@@ -2,11 +2,20 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Refactoring2 中文翻译",
-  description: "《重构：改善既有代码的设计（第二版）》中文翻译",
+  title: "《重构2》中文版",
+  // meta 标签 <= 80 中文字符
+  description: "重构：改善既有代码的设计 (第二版) 马丁·福勒"
+    + "; Refactoring 2 中文翻译"
+    + "; 重構｜改善既有程式的設計; 重構 第二版"
+  ,
   lang: 'zh-CN',
   base: '/Refactoring-2ed-zh/',
+
   lastUpdated: true,
+  // https://vitepress.dev/zh/guide/sitemap-generation#options
+  sitemap: {
+    hostname: 'https://cactus-proj.github.io/Refactoring-2ed-zh/'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -34,6 +43,9 @@ export default defineConfig({
       }
     ],
 
+    search: {
+      provider: 'local'
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Cactus-proj/Refactoring-2ed-zh' }
     ],
