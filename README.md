@@ -4,7 +4,6 @@
 
 在线阅读：https://Cactus-proj.github.io/Refactoring-2ed-zh/
 
-<img src="./docs/cover.jpg" width=24% />
 
 ## 前言
 
