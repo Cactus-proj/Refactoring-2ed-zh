@@ -3,6 +3,10 @@ name: PR Preview
 on:
   pull_request:
 
+permissions:
+  contents: write  # upload gh-pages
+  pull-requests: write  # create pr comment
+
 concurrency:
   group: 'preview-${{ github.ref }}'
   cancel-in-progress: true
@@ -11,7 +15,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Install and Build   
         env: 
           BASE_URL: "/Refactoring-2ed-zh/pr-preview/pr-${{ github.event.pull_request.number }}/"
